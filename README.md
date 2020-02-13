@@ -5,6 +5,8 @@ The script contains the workflow to analyse the results barcoded samples of Mi-S
 
 ## Main two appraches:
    A. Alignment of fastq file containing all samples with different barcodes (here 12 barcodes), and usage of BRB-Seq CreateDGEMatrix to demultiplex the samples according barcodes and analyse them in the one step -- to obtain data frames with reads per genes and umis per genes.
+   
+
    B. Demultiplexing the samples according the barcodes at first, alignment of separated samples, and analysis them.
    
    
